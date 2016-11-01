@@ -29,7 +29,7 @@ import java.util.*;
  * @version summer, 2015 - original version
  * @version summer, 2016 - upgraded to JSON; added Player POJO; removed unneeded libraries
  */
-@Path("/")
+@Path("/monopoly")
 public class MonopolyResource {
 
     /**
