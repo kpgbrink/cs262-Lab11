@@ -66,7 +66,10 @@ public class MonopolyResource {
         return null;
     }
 
-    /* Returns all players */
+    /**
+     * Run this to return all players
+     * This gets players from an sql data base and returns them
+     */
     private static final String DB_URI = "jdbc:postgresql://localhost:5432/monopoly";
     private static final String DB_LOGIN_ID = "postgres";
     private static final String DB_PASSWORD = "postgres";
